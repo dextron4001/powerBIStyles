@@ -6,6 +6,20 @@
             "*":{
                 "background": [{
                     "show": false
+                }],
+                "title": [{
+                    "show": true,
+                    "fontColor": { 
+                        "solid": { 
+                            "color": "#545454" 
+                            } 
+                        },
+                    "background": { 
+                        "show": false
+                    },
+                    "alignment": "left",
+                    "fontSize": 14,
+                    "fontFamily": "Segoe UI Semibold"
                 }]
             }
         },
