@@ -7,6 +7,9 @@
                 "background": [{
                     "show": false
                 }],
+                "border": [{
+                    "show": false
+                }],
                 "title": [{
                     "show": true,
                     "fontColor": { 
