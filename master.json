@@ -2,6 +2,13 @@
     "name": "Master settings",
     "dataColors": ["#E79F25","#58B4E9","#029F73","#F0E341","#2977AE","#D55E00","#CC79A7","#1A388A"],
     "visualStyles": {
+        "*":{
+            "*":{
+                "background": [{
+                    "show": false
+                }]
+            }
+        },
         "page": {
             "*": {
                 "background": [{
