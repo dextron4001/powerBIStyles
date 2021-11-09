@@ -14,7 +14,7 @@
                     "show": false
                 }],
                 "title": [{
-                    "show": true,
+                    "show": false,
                     "fontColor": { "solid": { "color": "#545454"}},
                     "background": { 
                         "show": false
@@ -39,26 +39,25 @@
 					"maxMarginFactor": 28,
 					"innerPadding": 22,
 					"showAxisTitle": true,
-					"titleColor": { "solid": { "color": "#D6D6D6"}},
+					"titleColor": { "solid": { "color": "#8A8A8A"}},
 					"titleFontSize": 12,
 					"titleFontFamily": "Segoe UI"
 				}],
                 "valueAxis": [{
 					"show": true,
 					"axisScale": "Linear",
-					"start": 0,
 					"labelColor": { "solid": { "color": "#8A8A8A"}},
 					"fontSize": 12,
 					"fontFamily": "Segoe UI",
 					"labelDisplayUnits": "0",
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
-					"titleColor": { "solid": { "color": "#D6D6D6"}},
+					"titleColor": { "solid": { "color": "#8A8A8A"}},
 					"titleFontSize": 12,
 					"titleFontFamily": "Segoe UI",
 					"gridlineShow": true,
 					"gridlineColor": { "solid": { "color": "#8A8A8A"}},
-					"gridlineThickness": 2,
+					"gridlineThickness": 1,
 					"gridlineStyle": "dashed"
 				}]
             }
@@ -169,18 +168,21 @@
         },
         "lineChart": {
 			"*": {
+				"title": [{
+                    "show": false
+				}],
                 "legend": [{
 					"show": true,
-					"position": "Top",
+					"position": "Bottom",
 					"showTitle": true,
-					"labelColor": { "solid": { "color": "#01B8AA"}},
-					"fontFamily": "Courier New",
-					"fontSize": 10,
+					"labelColor": { "solid": { "color": "#545454"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
 					"legendMarkerRendering": "markerOnly",
 					"matchLineColor": false
 				}],
                 "labels": [{
-					"show": true,
+					"show": false,
 					"color": { "solid": { "color": "#545454"}},
 					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
@@ -191,10 +193,9 @@
 					"backgroundTransparency": 30
                 }],
                 "categoryAxis": [{
-                    "start": 0,
                     "gridlineShow": true,
 					"gridlineColor": { "solid": { "color": "#8A8A8A"}},
-					"gridlineThickness": 2,
+					"gridlineThickness": 1,
 					"gridlineStyle": "dashed"
                 }]
             }
@@ -216,7 +217,7 @@
 				"values": [{
 					"fontColorPrimary": { "solid": { "color": "#1A388A"}},
 					"fontColorSecondary": { "solid": { "color": "#1A388A"}},
-					"backColorSecondary": { "solid": { "color": "#E6E6E6"}},
+					"backColorSecondary": { "solid": { "color": "#D6D6D6"}},
 					"outline": "None",
 					"urlIcon": true,
 					"wordWrap": true,
@@ -232,11 +233,61 @@
 				}]
 			}
 		},
-        
+		"slicer": {
+			"*": {
+				"general": [{
+					"outlineColor": { "solid": { "color": "#333333"}},
+					"outlineWeight": 1,
+					"orientation": "vertical",
+					"responsive": true
+				}],
+				"selection": [{
+					"selectAllCheckboxEnabled": false,
+					"singleSelect": true
+				}],
+				"header": [{
+					"show": true,
+					"fontColor": { "solid": { "color": "#333333"}},
+					"outline": "None",
+					"textSize": 12,
+					"fontFamily": "Segoe UI"
+				}],
+				"items": [{
+					"fontColor": { "solid": { "color": "#000000"}},
+					"background": { "solid": { "color": "#D6D6D6"}},
+					"outline": "None",
+					"textSize": 12,
+					"fontFamily": "Segoe UI"
+				}],
+				"slider": [{ 
+					"color": {"solid": { "color": "#333333"} }
+				}]
+			}
+		},
+		"card": {
+			"*": {
+				"labels": [{
+					"color": { "solid": { "color": "#1A388A"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 0,
+					"fontSize": 18,
+					"fontFamily": "Segoe UI"
+				}],
+				"categoryLabels": [{
+					"show": false
+				}],
+				"wordWrap": [{
+					"show": true
+				}],
+				"title": [{
+                    "show": true
+				}]
+			}
+		},
         "page": {
             "*": {
                 "background": [{
-                    "color": { "solid": { "color": "#D6D6D6" } },
+                    "color": { "solid": { "color": "#E6E6E6" } },
                     "transparency": 0
                 }]
             }
