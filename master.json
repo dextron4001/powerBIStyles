@@ -209,7 +209,7 @@
 					"outline": "None",
 					"autoSizeColumnWidth": true,
 					"fontFamily": "Segoe UI Semibold",
-					"fontSize": 14,
+					"fontSize": 12,
 					"alignment": "Left",
 					"wordWrap": true
 				}],
