@@ -199,6 +199,39 @@
                 }]
             }
         },
+		"tableEx": {
+			"*": {
+				"stylePreset": [{ 
+					"name": "None"
+				}],
+				"columnHeaders": [{
+					"fontColor": { "solid": { "color": "#333333"}},
+					"outline": "None",
+					"autoSizeColumnWidth": true,
+					"fontFamily": "Segoe UI Semibold",
+					"fontSize": 14,
+					"alignment": "Left",
+					"wordWrap": true
+				}],
+				"values": [{
+					"fontColorPrimary": { "solid": { "color": "#1A388A"}},
+					"fontColorSecondary": { "solid": { "color": "#1A388A"}},
+					"backColorSecondary": { "solid": { "color": "#E6E6E6"}},
+					"outline": "None",
+					"urlIcon": true,
+					"wordWrap": true,
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
+				}],
+				"total": [{
+					"totals": true,
+					"fontColor": { "solid": { "color": "#545454"}},
+					"outline": "None",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
+				}]
+			}
+		},
         
         "page": {
             "*": {
