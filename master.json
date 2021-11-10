@@ -21,12 +21,12 @@
                     },
                     "alignment": "left",
                     "fontSize": 14,
-                    "fontFamily": "Segoe UI Semibold"
+                    "fontFamily": "Verdana"
                 }],
                 "legend": [{
 					"showTitle": true,
 					"labelColor": { "solid": { "color": "#545454"}},
-					"fontFamily": "Segoe UI Semibold",
+					"fontFamily": "Verdana",
 					"fontSize": 12
 				}],
                 "categoryAxis": [{
@@ -34,27 +34,27 @@
 					"position": "Left",
 					"labelColor": { "solid": { "color": "#8A8A8A"}},
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"preferredCategoryWidth": 30,
 					"maxMarginFactor": 28,
 					"innerPadding": 22,
 					"showAxisTitle": true,
 					"titleColor": { "solid": { "color": "#8A8A8A"}},
 					"titleFontSize": 12,
-					"titleFontFamily": "Segoe UI"
+					"titleFontFamily": "Arial"
 				}],
                 "valueAxis": [{
 					"show": true,
 					"axisScale": "Linear",
 					"labelColor": { "solid": { "color": "#8A8A8A"}},
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"labelDisplayUnits": "0",
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"titleColor": { "solid": { "color": "#8A8A8A"}},
 					"titleFontSize": 12,
-					"titleFontFamily": "Segoe UI",
+					"titleFontFamily": "Arial",
 					"gridlineShow": true,
 					"gridlineColor": { "solid": { "color": "#8A8A8A"}},
 					"gridlineThickness": 1,
@@ -71,7 +71,7 @@
 					"labelPrecision": 1,
 					"labelPosition": "InsideEnd",
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false
 				}],
                 "dataPoint": [{
@@ -88,7 +88,7 @@
 					"labelPrecision": 1,
 					"labelPosition": "InsideEnd",
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false
 				}],
                 "dataPoint": [{
@@ -105,7 +105,7 @@
 					"labelPrecision": 1,
 					"labelPosition": "InsideEnd",
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false
 				}],
                 "legend": [{
@@ -123,7 +123,7 @@
 					"labelPrecision": 1,
 					"labelPosition": "InsideEnd",
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false
 				}],
                 "dataPoint": [{
@@ -140,7 +140,7 @@
 					"labelPrecision": 1,
 					"labelPosition": "InsideEnd",
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false
 				}],
                 "dataPoint": [{
@@ -157,7 +157,7 @@
 					"labelPrecision": 1,
 					"labelPosition": "InsideEnd",
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false
 				}],
                 "legend": [{
@@ -176,7 +176,7 @@
 					"position": "Bottom",
 					"showTitle": true,
 					"labelColor": { "solid": { "color": "#545454"}},
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"fontSize": 12,
 					"legendMarkerRendering": "markerOnly",
 					"matchLineColor": false
@@ -187,7 +187,7 @@
 					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
 					"fontSize": 12,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"enableBackground": false,
 					"backgroundColor": { "solid": { "color": "#0928DD"}},
 					"backgroundTransparency": 30
@@ -209,7 +209,7 @@
 					"fontColor": { "solid": { "color": "#333333"}},
 					"outline": "None",
 					"autoSizeColumnWidth": true,
-					"fontFamily": "Segoe UI Semibold",
+					"fontFamily": "Verdana",
 					"fontSize": 12,
 					"alignment": "Left",
 					"wordWrap": true
@@ -221,14 +221,14 @@
 					"outline": "None",
 					"urlIcon": true,
 					"wordWrap": true,
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"fontSize": 12
 				}],
 				"total": [{
 					"totals": true,
 					"fontColor": { "solid": { "color": "#545454"}},
 					"outline": "None",
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"fontSize": 12
 				}]
 			}
@@ -250,14 +250,14 @@
 					"fontColor": { "solid": { "color": "#333333"}},
 					"outline": "None",
 					"textSize": 12,
-					"fontFamily": "Segoe UI"
+					"fontFamily": "Arial"
 				}],
 				"items": [{
 					"fontColor": { "solid": { "color": "#000000"}},
 					"background": { "solid": { "color": "#D6D6D6"}},
 					"outline": "None",
 					"textSize": 12,
-					"fontFamily": "Segoe UI"
+					"fontFamily": "Arial"
 				}],
 				"slider": [{ 
 					"color": {"solid": { "color": "#333333"} }
@@ -271,7 +271,7 @@
 					"labelDisplayUnits": "0",
 					"labelPrecision": 0,
 					"fontSize": 18,
-					"fontFamily": "Segoe UI"
+					"fontFamily": "Arial"
 				}],
 				"categoryLabels": [{
 					"show": false
