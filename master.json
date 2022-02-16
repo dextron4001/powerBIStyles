@@ -284,6 +284,70 @@
 				}]
 			}
 		},
+		"pivotTable": {
+			"*": {
+					"stylePreset":[{
+								"name":"None"
+							}],
+					"grid": [{
+					"gridVertical": false,
+					"gridHorizontal": false,
+					"rowPadding": 2,
+					"textSize": 14,
+					"imageHeight": 100
+				}],
+				"columnHeaders": [{
+					"fontColor": { "solid": { "color": "#333333"}},
+					"fontFamily": "Verdana",
+					"fontSize": 12,
+					"alignment": "Left",
+					"titleAlignment": "Left",
+					"urlIcon": true,
+					"wordWrap": true
+				}],
+				"rowHeaders": [{
+					"fontColor": { "solid": { "color": "#1A388A"}},
+					"stepped": true,
+					"steppedLayoutIndentation": 12,					
+					"urlIcon": true,
+					"wordWrap": true,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"alignment": "Left", 
+					"showExpandCollapseButtons":true
+				}],
+				"values": [{
+					"fontColorPrimary": { "solid": { "color": "#1A388A" }},
+					"backColorPrimary": { "solid": { "color": "#E6E6E6" } },
+					"fontColorSecondary": { "solid": { "color": "#1A388A"}},
+					"backColorSecondary": { "solid": { "color": "#D6D6D6"} },
+					"bandedRowHeaders": true,
+					"valuesOnRow": false,
+					"outline": "Frame",
+					"urlIcon": true,
+					"wordWrap": true,
+					"fontFamily": "Arial",
+					"fontSize": 12
+				}],
+				"subTotals": [{
+					"rowSubtotals": true,
+					"columnSubtotals": false,
+					"fontColor": { "solid": { "color": "#1A388A"}},
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"applyToHeaders": true,
+					"rowSubtotalsPosition": "Bottom",
+					"perRowLevel": true,
+					"perColumnLevel": false					
+				}],
+				"total": [{
+					"fontColor": { "solid": { "color": "#1A388A"}},
+					"fontFamily": "Arial",
+					"applyToHeaders": true,
+					"fontSize": 12
+				}]
+			}
+		},
         "page": {
             "*": {
                 "background": [{
